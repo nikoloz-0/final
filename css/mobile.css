@@ -1,0 +1,80 @@
+@import url(variable.css);
+
+@media (max-width: 562px) {
+
+    /* HOME  section 3  */
+    .section3_contaienr {
+        width: 379px;
+        height: 128px;
+        gap: 32px;
+
+    }
+
+    .section3_title {
+        font-size: var(--maintitlefontsize3);
+    }
+
+    .section3_input {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email_input {
+        width: calc(216 / 379 * 100%);
+
+    }
+
+    .email_button {
+        height: 56px;
+        width: calc(130 / 379 * 100%);
+        padding: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* -------------HEADER--------------- */
+    header {
+        padding-inline: 20px;
+
+    }
+
+
+    /* -------------COVER SECTION ---------------- */
+    .cover_seciton {
+        height: 304px;
+        background-size: 100% 100%;
+
+    }
+
+    .cover_itmes_container {
+        row-gap: 32px;
+    }
+
+    .cover_title {
+        font-size: var(--maintitlefontsize3);
+        text-overflow: clip;
+    }
+
+    /* -------------HOME SECTION 1 ---------------- */
+    .section1 {
+        height: 476px;
+    }
+}
+
+@media (max-width: 368px) {
+    .section3_title {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 395px) {
+    .cover_title {
+        font-size: 27px;
+    }
+}

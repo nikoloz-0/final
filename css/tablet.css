@@ -1,0 +1,95 @@
+@import url(variable.css);
+@media (max-width: 745px) {
+    header {
+        padding-inline: 24px;
+    }
+
+    /* ----------------NAV------------ */
+    .header_nav {
+        position: fixed;
+        left: -100%;
+        top: 96px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--maincolor3);
+        width: 240px;
+        height: 160px;
+        transition: 0.3s;
+        padding: 25px 143px 25px 20px;
+
+    }
+
+    /* --------------UL-------------------- */
+    .header_ul {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .active,
+    .no_active {
+        color: white;
+    }
+
+    .header_nav.active {
+        left: 0;
+    }
+
+    /* --------------burger--------------- */
+    .burger {
+        display: block;
+    }
+
+    .burger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .burger.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+    /* ------------------TITLE-------------------- */
+    .title_a {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Title {
+        font-size: 32px;
+        height: 39px;
+    }
+
+    .title2 {
+        font-size: 32px;
+        height: 39px;
+    }
+
+    /* ---------------- HOME SECTION 1 --------------------------- */
+    .section1{
+        height: 588px;
+    }
+    .section1_container{
+        max-width: 100%;
+        
+    }
+    .section1_card1,
+    .section1_card2,
+    .section1_card3,
+    .section1_card4 {
+        width: 180px;
+        height: 162px;
+        background-size: 100% 100%;
+    }
+    .section1_button{
+        width: 100%;
+        
+    }
+    .section1_cards1,
+.section1_cards2{
+    width: 100%;
+}
+}
