@@ -30,7 +30,7 @@
     .artworks_section1{
         padding: 120px 32px;
     }
-    .grid-item {
+    .grid_item {
         width: calc(468 / 1025 * 100%);
         height: 339px;
         border-radius: 8px;
