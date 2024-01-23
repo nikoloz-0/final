@@ -69,13 +69,15 @@
     }
 
     /* ---------------- HOME SECTION 1 --------------------------- */
-    .section1{
+    .section1 {
         height: 588px;
     }
-    .section1_container{
+
+    .section1_container {
         max-width: 100%;
-        
+
     }
+
     .section1_card1,
     .section1_card2,
     .section1_card3,
@@ -84,12 +86,59 @@
         height: 162px;
         background-size: 100% 100%;
     }
-    .section1_button{
+
+    .section1_button {
         width: 100%;
+
+    }
+
+    .section1_cards1,
+    .section1_cards2 {
+        width: 100%;
+    }
+    /* ---------------------FOOTER----------------------------- */
+    footer{
+        padding: 32px 123px;
+        height: 330px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
         
     }
-    .section1_cards1,
-.section1_cards2{
-    width: 100%;
+    .footerContainer1{
+        gap: 32px;
+    }
+    .footerNavContainer{
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .footer_ul{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_infoBox{
+        display: flex;
+        flex-direction: row;
+        
+    }
+   .infoBox_titles{
+    display: none;
+   }
 }
+@media (max-width: 620px){
+    .artworks_cover{
+        padding-inline: 78px;
+    }
+    .art_cover_title{
+        font-size: 36px;
+        line-height: normal;
+        overflow: hidden;
+        text-wrap: nowrap;
+    }
+    .art_search_button{
+        width: 50%;
+    }
 }

@@ -60,11 +60,30 @@
     .section1 {
         height: 476px;
     }
+    /* ------------ART COVER SECTION ----------------- */
+    .artworks_cover{
+        height: 400px;
+    }
+    .artworks_cover_container{
+        height: 127px;
+    }
+    .artworks_cover{
+        padding-inline: 36px;
+    }
 }
-
+@media (max-width: 470px){
+   
+.art_cover_title{
+    font-size: 29px;
+}
+}
 @media (max-width: 368px) {
     .section3_title {
         font-size: 28px;
+    }
+    /* ---------art cover---------------- */
+    .art_cover_title{
+        font-size: 24px;
     }
 }
 
