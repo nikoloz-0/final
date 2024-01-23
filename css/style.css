@@ -612,6 +612,7 @@ footer {
     font-size: var(--mainfontsize2);
     font-weight: 400;
     line-height: 26px;
+    cursor: pointer;
     /* es gilaki ver chavsvi inputshi :( */
 }
 
