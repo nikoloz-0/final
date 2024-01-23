@@ -127,6 +127,10 @@
    .infoBox_titles{
     display: none;
    }
+   /* ---------------------- ART SECTION 1 ----------------- */
+   .artworks_section1{
+    padding: 120px 24px;
+}
 }
 @media (max-width: 620px){
     .artworks_cover{

@@ -60,29 +60,59 @@
     .section1 {
         height: 476px;
     }
+
     /* ------------ART COVER SECTION ----------------- */
-    .artworks_cover{
+    .artworks_cover {
         height: 400px;
     }
-    .artworks_cover_container{
+
+    .artworks_cover_container {
         height: 127px;
     }
-    .artworks_cover{
+
+    .artworks_cover {
         padding-inline: 36px;
     }
+
+    /* ---------------------- ART SECTION 1 ----------------- */
+    .artworks_section1 {
+        padding: 64px 24px;
+        height: 2526px;
+        justify-content: center;
+        row-gap: 42px;
+    }
+.btn4{
+    display: none;
 }
-@media (max-width: 470px){
-   
-.art_cover_title{
-    font-size: 29px;
+    .grid-item {
+        width: 100%;
+    }
+
+    .buttons_container {
+        width: 280px;
+        
+    }
+
+    .art_section1_buttons {
+        width: 40px;
+        height: 40px;
+    }
 }
+
+@media (max-width: 470px) {
+
+    .art_cover_title {
+        font-size: 29px;
+    }
 }
+
 @media (max-width: 368px) {
     .section3_title {
         font-size: 28px;
     }
+
     /* ---------art cover---------------- */
-    .art_cover_title{
+    .art_cover_title {
         font-size: 24px;
     }
 }
