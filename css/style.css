@@ -137,7 +137,7 @@ li:hover {
     align-items: center;
     margin: auto;
     max-width: 1440px;
-    background-image: url(/images/cover1.png);
+    background-image: url(..//images/cover1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -637,7 +637,7 @@ footer {
 .sort_button {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    column-gap: 24px;
     padding: 8px 21px;
     width: 160px;
     height: 45px;

@@ -145,4 +145,15 @@
     .art_search_button{
         width: 50%;
     }
+    .artworks_title_container{
+        align-items: center;
+    }
+    .artworks_title{
+        font-size: var(--mainfontsize1);
+    }
+    .sort_button{
+        font-size: var(--mainfontsize1);
+        width: 126px;
+        height: 40px;
+    }
 }

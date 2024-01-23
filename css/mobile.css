@@ -81,6 +81,7 @@
         justify-content: center;
         row-gap: 42px;
     }
+    
 .btn4{
     display: none;
 }
@@ -105,7 +106,11 @@
         font-size: 29px;
     }
 }
-
+@media (max-width: 395px) {
+    .cover_title {
+        font-size: 27px;
+    }
+}
 @media (max-width: 368px) {
     .section3_title {
         font-size: 28px;
@@ -115,15 +120,13 @@
     .art_cover_title {
         font-size: 24px;
     }
-}
-
-
-
-
-
-
-@media (max-width: 395px) {
-    .cover_title {
-        font-size: 27px;
+    .artworks_title{
+        font-size: 14px;
     }
 }
+
+
+
+
+
+
