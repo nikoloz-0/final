@@ -117,6 +117,12 @@
         height: 40px;
     }
     /* ------------CONTACT ------------------- */
+   .contact_cover{
+    height: 560px;
+   }
+   .contact_section{
+    height: 618px;
+   }
     .form_container{
         padding: 24px 20px;
     }
