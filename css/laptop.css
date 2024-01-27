@@ -39,4 +39,8 @@
     .ietm{
         display: none;
     }
+    /* -----------CONTACT-------------- */
+    .contact_cover{
+        padding-left: 32px;
+    }
 }

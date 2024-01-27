@@ -1,4 +1,28 @@
 @import url(variable.css);
+@media (max-width: 820px){
+    .contact_section_container{
+        width: calc(696 / 820 * 100%);
+        
+    }
+    .maps_container{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+    .icons_contaienr{
+        flex-direction: row;
+        width: 288px;
+        height: 48px;
+        gap: 72px;
+    }
+    .icon_text{
+        display: none;
+    }
+    .map{
+        width: 100%;
+        
+    }
+}
 @media (max-width: 745px) {
     header {
         padding-inline: 24px;
@@ -18,7 +42,10 @@
         padding: 25px 143px 25px 20px;
 
     }
-
+/* -----------CONTACT-------------- */
+.contact_cover{
+    padding-left: 32px;
+}
     /* --------------UL-------------------- */
     .header_ul {
         flex-direction: column;

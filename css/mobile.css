@@ -29,6 +29,15 @@
         width: calc(130 / 379 * 100%);
         padding: none;
     }
+    /* -----------CONTACT-------------- */
+    .contact_cover{
+        padding-inline: 24px;
+        
+    }
+    .form_container{
+        width: 100%;
+        height: 391px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -106,6 +115,24 @@
     .art_section1_buttons {
         width: 40px;
         height: 40px;
+    }
+    /* ------------CONTACT ------------------- */
+    .form_container{
+        padding: 24px 20px;
+    }
+    .contact_lable{
+        font-size: var(--maintitlefontsize3);
+    }
+    /* ------------ CONTACT SECTION------------- */
+    .contact_tile{
+        font-size: var(--maintitlefontsize3);
+    }
+    .maps_container{
+        margin-top: 42px;
+    }
+    .icons_contaienr{
+        gap: 42px;
+        justify-content: center;
     }
 }
 
