@@ -585,6 +585,7 @@ footer {
     width: 100%;
     height: 56px;
     display: flex;
+    position: relative;
 }
 
 .art_search {
@@ -593,7 +594,6 @@ footer {
     border: none;
     border-radius: 10px;
     border: 2px solid #FFF;
-    background: #F5F5F5;
     color: rgba(213, 144, 110, 0.52);
     font-family: 'Inter', sans-serif;
     font-size: var(--mainfontsize1);
@@ -604,7 +604,7 @@ footer {
 
 .art_search_button {
     padding: 15px 53px 15px 54px;
-    border: none;
+    border: 1px solid white;
     border-radius: 0px 10px 10px 0px;
     background: var(--maincolor3);
     color: var(--maincolor2);
@@ -613,7 +613,9 @@ footer {
     font-weight: 400;
     line-height: 26px;
     cursor: pointer;
-    /* es gilaki ver chavsvi inputshi :( */
+    height: 100%;
+    position: absolute;
+    right: 0px;
 }
 
 /* --------------ARTWROKS  PRODUCTS SECTION  */

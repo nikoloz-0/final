@@ -74,13 +74,22 @@
         padding-inline: 36px;
     }
 
-    /* ---------------------- ART SECTION 1 ----------------- */
+    /* ---------------------- ART COVER  ----------------- */
+.art_search_button{
+    width: 105px;
+    padding: 15px 16px;
+   
+}
+
+
+    /* --------------------ARTWORKS SECITON 1------------------  */
     .artworks_section1 {
         padding: 64px 24px;
         height: 2526px;
         justify-content: center;
         row-gap: 42px;
     }
+
     
 .btn4{
     display: none;
@@ -124,7 +133,11 @@
         font-size: 14px;
     }
 }
-
+@media (max-width:368px){
+    .art_search_button{
+        padding: 0 0 0 0;
+    }
+}
 
 
 

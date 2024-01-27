@@ -142,9 +142,6 @@
         overflow: hidden;
         text-wrap: nowrap;
     }
-    .art_search_button{
-        width: 50%;
-    }
     .artworks_title_container{
         align-items: center;
     }
